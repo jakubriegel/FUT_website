@@ -27,34 +27,28 @@ body{
 	height: 100%;
 }
 
-#title-page{
+header{
+	z-index: 1001;
+	position: fixed;
+	height: 60px;
+	width: 100%;
+
+	background: linear-gradient(black, transparent);
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
-
-	h1{
-		color: #222;
-	}
-	a{
+	header a{
 		text-decoration: none;
 		color: #fff;
 	}
-	a:hover{
+	header a:hover{
 		color: #82152b;
 
 	}
-	p{
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	}
-	header{
-		background: linear-gradient(black, transparent);
-		color: #fff;
-		margin-left: auto;
-		margin-right: auto;
-		height: 10%;
-		
-	}
 
-	ul.menu{
+	header ul.menu{
 		list-style: none;
 		display: flex;
 		justify-content: space-around;
@@ -66,66 +60,84 @@ body{
 		margin: 0;
 		padding: 0;
 	}
-	#logos{
+	header #logos{
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+		margin: 0 15px;
 	}
 
-	nav{
+	header nav{
 		display: flex;
 		justify-content: space-around;
 		flex-grow: 1;
 		flex-wrap: wrap;
 	}
-	li{
+	header li{
 		justify-content: center;
 		align-content: center;
 		padding: 1em;
 		font-size: 16px;
 	}
 
-	#logo{
+#title{
+	
+}
+
+	#title #logo{
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
-		height: 60%;
-		padding-top: 10%;
+		height: 80%;
 
-		background-image: url("../images/logos/FUT_poznan.png")
+		background-image: url("../images/logos/FUT_poznan.png");
+		background-position: center;
+		background-size: 30%;
+		background-repeat: no-repeat;  
+
 	}
-	/*#logo > img{
-		display: inherit;
-		margin-left: auto;
-		margin-right: auto;
-	}*/
 
 
-	#zegar{
+	#title #zegar{
+		width: 100%;
+		height: 20%;
+
 		color: #fff;
-		display: flex;
 		justify-content: center;
 		align-items: center;
-		flex-direction: column;
-	}
-	#timer{
-		color: #fff;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	#timer > ul{
-		list-style-type: none;
-		display: flex;
-		justify-content: space-around;
-		max-width: 1000px;	
+
+		font-size: 35px;
 	}
 
-	#timer > li{
-		float: left;
-		padding: 2em;
-		margin: 2em;
-	}
+		#zegar h1{
+			margin-bottom: 10px;
+
+			font-size: 25px;
+			text-align: center;
+			font-variant: small-caps;
+		}
+		
+		#zegar #timer{
+			color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#zegar #timer .timer_item{
+			margin: 0 25px;
+		}
+
+		#zegar #timer .time{
+			font-size: 50px;
+			text-align: center;
+		}
+
+		#zegar #timer .description{
+			text-align: center;
+			font-size: 15px;
+			line-height: 20px;
+		}
 
 #about{
 	background-color: greenyellow;

@@ -14,8 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     </head>
     <body>
-        <div id="title" class="subpage">
-            <header>
+        <header>
                 <ul class="menu">
                     <div id="logos">
                         <img src="images/logos/SSPP_white.png" alt="Logo SSPP" height="50px">
@@ -29,19 +28,30 @@
                         <li><a href="#">Partnerzy</a></li>
                     </nav>
                 </ul>
-            </header>
-            <div id="logo">
-                <!-- <img src="images/logos/FUT_poznan.png" alt="Logo FUT Poznań" height="350px"> -->
-            </div>
-            <section id="zegar"> 
+        </header>
+        <div id="title" class="subpage">
+            <div id="logo"></div>
+            <div id="zegar"> 
                 <script type="text/javascript" src="js/timer.js"></script>
-                <div id="zegar">                
-                    <p>FORUM UCZELNI TECHNICZNYCH - POZNAŃ 2018 </p>
-                    <div id="timer"></div>
+                <div>                
+                    <h1>Forum Uczelni Technicznych - Poznań 2018</h1>
+                    <div id="timer">
+                        <div class="timer_item">
+                            <div id="days" class="time"></div><div class="description">dni</div>
+                        </div>
+                        <div class="timer_item">
+                            <div id="hours" class="time"></div><div class="description">godzin</div>
+                        </div>
+                        <div class="timer_item">
+                            <div id="minutes" class="time"></div><div class="description">minut</div>
+                        </div>
+                        <div class="timer_item">
+                            <div id="seconds" class="time"></div><div class="description">sekund</div>
+                        </div>
+                    </div>
                     <div id="timerText"></div>
                 </div>
-
-            </section>
+            </div>
         </div>
         <div id="about" class="subpage">
 
