@@ -1,0 +1,1 @@
+browser-sync start --proxy "192.168.1.67" --files "*.css,*.html"
