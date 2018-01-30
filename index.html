@@ -8,7 +8,7 @@
 		<meta name="theme-color" content="#800F27" />
 		
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/paralax.css">
+        <link rel="stylesheet" type="text/css" href="css/parallax.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -26,47 +26,75 @@
                         <li><a href="#">Harmonogram</a></li>
                         <li><a href="#">Zakwaterowanie</a></li>
                         <li><a href="#">Partnerzy</a></li>
+                        <li><a href="#">Kontakt</a></li>
                     </nav>
                 </ul>
         </header>
-        <div id="title" class="subpage">
-            <div id="logo"></div>
-            <div id="zegar"> 
-                <script type="text/javascript" src="js/timer.js"></script>
-                <div>                
-                    <h1>Forum Uczelni Technicznych - Poznań 2018</h1>
-                    <div id="timer">
-                        <div class="timer_item">
-                            <div id="days" class="time"></div><div class="description">dni</div>
-                        </div>
-                        <div class="timer_item">
-                            <div id="hours" class="time"></div><div class="description">godzin</div>
-                        </div>
-                        <div class="timer_item">
-                            <div id="minutes" class="time"></div><div class="description">minut</div>
-                        </div>
-                        <div class="timer_item">
-                            <div id="seconds" class="time"></div><div class="description">sekund</div>
+        <div class="parallax">
+            <div id="group1" class="p-group">
+                <div id="title" class="subpage p-layer p-layer-front">
+                    <div id="logo"></div>
+                    <div id="zegar"> 
+                        <script type="text/javascript" src="js/timer.js"></script>
+                        <div>                
+                            <h1>Forum Uczelni Technicznych - Poznań 2018</h1>
+                            <div id="timer">
+                                <div class="timer_item">
+                                    <div id="days" class="time"></div><div class="description">dni</div>
+                                </div>
+                                <div class="timer_item">
+                                    <div id="hours" class="time"></div><div class="description">godzin</div>
+                                </div>
+                                <div class="timer_item">
+                                    <div id="minutes" class="time"></div><div class="description">minut</div>
+                                </div>
+                                <div class="timer_item">
+                                    <div id="seconds" class="time"></div><div class="description">sekund</div>
+                                </div>
+                            </div>
+                            <div id="timerText"></div>
                         </div>
                     </div>
-                    <div id="timerText"></div>
+                </div>
+                <div class="p-layer p-layer-back"></div>
+            </div>
+
+
+            <div id="group1" class="p-group">
+                <div id="about" class="subpage p-layer p-layer-front">
+
                 </div>
             </div>
-        </div>
-        <div id="about" class="subpage">
 
-        </div>
-        <div id="timetable" class="subpage">
-            
-        </div>
-        <div id="panels" class="subpage">
+            <div id="group1" class="p-group">
+                <div id="timetable" class="subpage p-layer p-layer-front">
+                
+                </div>
+            </div>
 
-        </div>
-        <div id="accomodation" class="subpage">
+            <div id="group1" class="p-group">
+                <div id="panels" class="subpage p-layer p-layer-front">
 
-        </div>
-        <div id="partners" class="subpage">
+                </div>
+            </div>
 
-        </div>
+            <div id="group1" class="p-group">
+                <div id="accomodation" class="subpage p-layer p-layer-front">
+
+                </div>
+            </div>
+
+            <div id="group1" class="p-group">
+                <div id="partners" class="subpage p-layer p-layer-front">
+
+                </div>
+            </div>
+
+            <div id="group1" class="p-group">
+                <div id="contact" class="subpage p-layer p-layer-front">
+
+                </div>
+            </div>
+        </div>  <!-- parallax -->
     </body>
 </html>
