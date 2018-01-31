@@ -133,17 +133,57 @@ header{
 			line-height: 20px;
 		}
 
+
+#organizers{
+	background-color: white;
+}
+
+	#organizers h1{
+		background-color: #82152b;
+		text-align: center;
+		color: #fff;
+	}
+
+	#organizers section{
+		width: 100%;
+		display: inline-block;
+	}
+
+	#organizers #logos-holder{
+		height: 150px;
+		width: 930px;
+		transform: translateX(-50%);
+		position: relative;
+		left: 50%;
+		margin: 50px 0;
+	
+	}
+
+	#organizers .logo{
+		width: 250px;
+		height: 100%;
+		display: inline-block;
+		margin: 0 30px;
+
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	#organizers #put-logo{
+		background-image: url("../images/logos/put_logo.png")
+	}
+
+	#organizers #sspp-logo{
+		background-image: url("../images/logos/sspp_logo.png")
+	}
+
+	#organizers #pan-logo{
+		background-image: url("../images/logos/pan_logo.png")
+	}
+
 #about{
 	/* background-color: greenyellow; */
-}
-#about-section{
-	background-color: #82152b;
-	text-align: center;
-	color: #fff;
-
-}
-#organizers{
-	background-color: #FFF;
 }
 
 
