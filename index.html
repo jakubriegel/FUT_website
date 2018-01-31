@@ -15,6 +15,17 @@
     </head>
     <body>
         <header>
+                <div class="debug">
+                    <label><input type="checkbox"> Debug</label>
+                    <script>
+                        var debugInput = document.querySelector("input");
+                        function updateDebugState() {
+                            document.body.classList.toggle('debug-on', debugInput.checked);
+                        }
+                        debugInput.addEventListener("click", updateDebugState);
+                        updateDebugState();
+                    </script>
+                </div>
                 <ul class="menu">
                     <div id="logos">
                         <img src="images/logos/SSPP_white.png" alt="Logo SSPP" height="50px">
@@ -59,38 +70,47 @@
                 <div class="p-layer p-layer-back"></div>
             </div>
 
-
-            <div id="group1" class="p-group">
-                <div id="about" class="subpage p-layer p-layer-front">
-
+            <div id="grouptrans" class="p-group">
+                <div id="organizers" class="subpage p-layer p-layer-front">
+                    <div id="about-section">
+                            <h1>ORGANIZATORZY</h1>
+                    </div>
                 </div>
             </div>
 
-            <div id="group1" class="p-group">
+            <div id="group2" class="p-group">
+                <div id="about" class="subpage p-layer p-layer-front">
+                    
+                </div>
+                <div class="p-layer p-layer-back"></div>   
+            </div>
+
+            <div id="group2" class="p-group">
                 <div id="timetable" class="subpage p-layer p-layer-front">
                 
-                </div>
+                </div>      
+                       
             </div>
 
-            <div id="group1" class="p-group">
+            <div id="" class="p-group">
                 <div id="panels" class="subpage p-layer p-layer-front">
 
                 </div>
             </div>
 
-            <div id="group1" class="p-group">
+            <div id="" class="p-group">
                 <div id="accomodation" class="subpage p-layer p-layer-front">
 
                 </div>
             </div>
 
-            <div id="group1" class="p-group">
+            <div id="" class="p-group">
                 <div id="partners" class="subpage p-layer p-layer-front">
 
                 </div>
             </div>
 
-            <div id="group1" class="p-group">
+            <div id="" class="p-group">
                 <div id="contact" class="subpage p-layer p-layer-front">
 
                 </div>

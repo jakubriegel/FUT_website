@@ -134,11 +134,22 @@ header{
 		}
 
 #about{
-	background-color: greenyellow;
+	/* background-color: greenyellow; */
 }
+#about-section{
+	background-color: #82152b;
+	text-align: center;
+	color: #fff;
+
+}
+#organizers{
+	background-color: #FFF;
+}
+
 
 #timetable{
 	background-color: chocolate;
+
 }
 
 #panels{
@@ -152,6 +163,7 @@ header{
 #partners{
 	background-color: hotpink;
 }
+
 
 
 /* responsive */
