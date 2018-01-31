@@ -37,30 +37,52 @@
 
 
 
-#group1 {
+#group-title {
   z-index: 3; 
 }
-#group1 .p-layer-back {
+#group-title .p-layer-back {
   background-image: url("../images/stary_rynek.png");
   background-size: cover;
   background-position: center;
 }
 
 
-#grouptrans {
+#group-organizers {
   z-index: 4; 
 }
 
-#group2 {
+#group-about {
   z-index: 5; 
 }
-#group2 .p-layer-back {
+#group-about .p-layer-back {
   z-index: 2;
   background-image: url("../images/centrum_wykladowe.png");
   background-size: cover;
   background-position: center;
 }
 
+#group-timetable {
+  z-index: 10; 
+}
+
+#group-panels {
+  z-index: 5; 
+}
+#group-panels .p-layer-back {
+  z-index: 2;
+  background-image: url("../images/aula.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#group-accomodation {
+  z-index: 6; 
+}
+#group-accomodation .p-layer {
+  background-image: url("../images/hotel.png");
+  background-size: cover;
+  background-position: center;
+}
 
 
 

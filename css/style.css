@@ -193,7 +193,7 @@ header{
 }
 
 #panels{
-	background-color: fuchsia;
+	
 }
 
 #accomodation{
@@ -204,6 +204,9 @@ header{
 	background-color: hotpink;
 }
 
+#contact{
+	background-color: red;
+}
 
 
 /* responsive */
