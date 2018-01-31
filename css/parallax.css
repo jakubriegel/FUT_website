@@ -52,7 +52,7 @@
 }
 
 #group-about {
-  z-index: 5; 
+  z-index: 3; 
 }
 #group-about .p-layer-back {
   z-index: 2;

@@ -17,6 +17,15 @@ body{
 	background-color: #0E1321;	
 }
 
+
+h3{
+	background-color: #82152b;
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
+}
+
+
 .subpage{
 	height: 100%;
 }
@@ -138,12 +147,6 @@ header{
 	background-color: white;
 }
 
-	#organizers h1{
-		background-color: #82152b;
-		text-align: center;
-		color: #fff;
-	}
-
 	#organizers section{
 		width: 100%;
 		display: inline-block;
@@ -188,7 +191,7 @@ header{
 
 
 #timetable{
-	background-color: chocolate;
+	background-color: #fff;
 
 }
 
@@ -197,15 +200,15 @@ header{
 }
 
 #accomodation{
-	background-color: aqua;
+	background-color: #fff;
 }
 
 #partners{
-	background-color: hotpink;
+	background-color: #fff;
 }
 
 #contact{
-	background-color: red;
+	background-color: #fff;
 }
 
 
