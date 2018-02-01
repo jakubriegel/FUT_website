@@ -189,6 +189,35 @@ header{
 	/* background-color: greenyellow; */
 }
 
+.red-bg{
+	/* background-color: #82152b; */
+	background-color: rgba(130,21,43,0.6);
+	color: #fff;
+	height:100%;
+	width: 50%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.white-box{
+	border: #fff solid 2px;
+	color: #fff;
+	height:80%;
+	width: 80%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	font-size: 1.5em;
+	overflow: hidden;
+}
+.white-box p{	
+	color: #fff;
+	padding: 1em;
+}
 
 #timetable{
 	background-color: #fff;
