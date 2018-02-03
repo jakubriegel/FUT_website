@@ -45,6 +45,7 @@ header{
 	header a{
 		text-decoration: none;
 		color: #fff;
+		transition: all 0.2s ease 0s;
 	}
 	header a:hover{
 		color: #82152b;
@@ -145,8 +146,8 @@ header{
 
 #organizers{
 	background-color: white;
+	
 }
-
 	#organizers section{
 		width: 100%;
 		display: inline-block;
@@ -185,6 +186,53 @@ header{
 		background-image: url("../images/logos/pan_logo.png")
 	}
 
+	#organizers p{
+		font-size: 3em;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2em;
+	}
+
+	#organizers iframe{
+		margin-left: auto;
+		margin-right: auto;
+		width: 63%;
+		height: 35.4375%;
+		display: block;
+	}
+
+	#organizers .white-box{
+		color: #82152b;
+		width: 59%;
+		height: 20%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		padding: 1em;
+	}
+	#organizers a{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+		background-color: #fff;
+		border: #82152b 8px solid;
+		width: 63%;
+		font-size: 4em;
+		margin-top: 0.5em;
+		text-align: center;
+		text-decoration: none;
+		color: #000;
+		overflow: hidden;
+		transition: all 0.3s ease 0s;
+	}
+	#organizers a:hover{
+		background-color: #82152b;
+		color: #fff;
+	}
+
 #about{
 	/* background-color: greenyellow; */
 }
@@ -198,12 +246,22 @@ header{
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+}
+
+h4{
+	font-size: 2.5em;
+	margin-bottom: 1em;
+	margin-top: 0;
+	text-align: center;
+	color: #fff;
+	
 }
 
 .white-box{
-	border: #fff solid 2px;
+	border: solid 2px;
 	color: #fff;
-	height:80%;
+	height:70%;
 	width: 80%;
 
 	display: flex;
@@ -211,9 +269,10 @@ header{
 	align-items: center;
 	flex-wrap: wrap;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	overflow: hidden;
 }
+
 .white-box p{	
 	color: #fff;
 	padding: 1em;
@@ -227,6 +286,34 @@ header{
 #panels{
 	
 }
+
+	#panels button{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+		background-color: rgba(130,21,43,0.6);
+		border: #fff 4px solid;
+		width: 63%;
+		font-size: 4em;
+		margin-top: 0.5em;
+		text-align: center;
+		text-decoration: none;
+		color: #fff;
+		overflow: hidden;
+		transition: all 0.3s ease 0s;
+
+		font-family: 'Ubuntu', 'sans-serif';
+	}
+	#panels button:hover{
+		background-color: #fff;
+		color: #82152b;
+	}
+
+	#panels-block{
+		width: 50%;
+	}
+
 
 #accomodation{
 	background-color: #fff;

@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 14 2018 15:30:00" ).getTime();
+var countDownDate = new Date("Apr 12 2018 18:00:00" ).getTime();
 
 var daysDiv;
 var hoursDiv;
