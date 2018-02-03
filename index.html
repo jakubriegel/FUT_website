@@ -123,17 +123,37 @@
             <div id="group-panels" class="p-group">
                 <div id="panels" class="subpage p-layer p-layer-front">
                         <h3>PANELE</h3>
-                        <button>Genialny Mówca</button>
-                        <div class="panels-block">
-                            <h4>BLOK I</h4>
-                            <button>Genialny Mówca</button>
-                            <button>Genialny Mówca</button>
-                        </div>
-                        <div class="panels-block">
-                            <h4>BLOK II</h4>
-                            <button>Genialny Mówca</button>
-                            <button>Genialny Mówca</button>
-                        </div>
+                        <form id="panels">
+                            <input type="radio" id="button-big" name="panels">
+                            <label for="button-big" id="button-big">Genialny Mówca</label>
+                            <div class="panels-block">
+                                <h4>BLOK I</h4>
+                                <input type="radio" id="panel1" name="panels">
+                                <label for="panel1">Genialny Mówca</label>
+                                <div class="panels-about" id="block1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation 
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+                                    <p>
+                                        Duis aute irure dolor in reprehenderit in voluptate 
+                                        velit esse cillum dolore eu fugiat nulla pariatur. 
+                                        Excepteur sint occaecat cupidatat non proident, 
+                                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>                                    
+                                </div>
+                                <input type="radio" id="panel2" name="panels">
+                            <label for="panel2">Genialny Mówca</label>
+                            </div>
+                            <div class="panels-block" id="block2">
+                                <h4>BLOK II</h4>
+                                <input type="radio" id="panel3" name="panels">
+                                <label for="panel3">Genialny Mówca</label>
+                                <input type="radio" id="panel4" name="panels">
+                                <label for="panel4">Genialny Mówca</label>
+                            </div>
+                        </form>
                 </div>
                 <div class="p-layer p-layer-back"></div>  
             </div>
