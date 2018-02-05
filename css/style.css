@@ -322,7 +322,7 @@ h4{
 		color: #82152b;
 	}
 
-	#input:hover + label{
+	#label:hover + label{
 		background-color: #fff;
 		color: #82152b;
 	}
@@ -376,6 +376,53 @@ h4{
 #contact{
 	background-color: #fff;
 }
+
+	#contact #foto-holder{
+		margin-top: 2em;
+		height: 350px;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	#contact .foto-section{
+		height: 100%;
+		width: 350px;
+	}
+
+	#contact .foto-section h4{
+		color: #000;
+		font-size: 2em;
+	}
+
+	#contact .foto-section h5{
+		text-align: center;
+	}
+
+	#contact .logo{
+		width: 100%;
+		height: 50%;
+		display: inline-block;
+
+		text-align: center;
+
+
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	#contact #foto1-logo{
+		background-image: url("../images/contact/slice1.png")
+	}
+
+	#contact #foto2-logo{
+		background-image: url("../images/contact/slice2.png")
+	}
+
+	#contact #foto3-logo{
+		background-image: url("../images/contact/slice3.png")
+	}
 
 
 /* responsive */

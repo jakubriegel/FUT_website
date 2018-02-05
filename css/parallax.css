@@ -88,6 +88,10 @@
   background-position: center;
 }
 
+#group-contact{
+  z-index: 10;
+}
+
 
 
 .debug {
