@@ -336,9 +336,28 @@ h4{
 		margin-right: auto;
 		color: #fff;
 		padding: 0.5em;
+		transition: all 0.5s linear, padding 0.2s;
+		overflow: hidden;
+		max-height: 1000px;
 	}
+
+	#panels .panels-hidden{
+		/* width: 85%; */
+		max-height: 0;
+		padding: 0;
+		transition: all 0.5s linear, padding 0.5s 0.5s;
+	}
+
+
 	#panels #button-big{
-		width: 92%;
+		width: 100%;
+		margin-left: 2vw;
+		margin-right: 2vw;
+	}
+	#panels #panel0-block0{
+		width: 100%;
+		margin-left: 2vw;
+		margin-right: 2vw;
 	}
 
 	.panels-block{
