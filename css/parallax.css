@@ -13,6 +13,7 @@
   height: 100vh;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  
 }
 
 .p-layer {
@@ -49,6 +50,7 @@
 
 #group-organizers {
   z-index: 4; 
+  height: 150%;
 }
 
 #group-about {
@@ -71,9 +73,11 @@
 }
 #group-panels .p-layer-back {
   z-index: 2;
-  background-image: url("../images/aula.png");
+  background-image: url("../images/cw-biblioteka.jpg");
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: overlay;
 }
 
 #group-accomodation {
@@ -83,6 +87,10 @@
   background-image: url("../images/hotel.png");
   background-size: cover;
   background-position: center;
+}
+
+#group-contact{
+  z-index: 10;
 }
 
 

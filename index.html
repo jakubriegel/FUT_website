@@ -37,12 +37,12 @@
                         <img src="images/logos/FUT_white.png" alt="Logo FUT" height="75px">
                     </div>
                     <nav>
-                        <li><a href="#">Strona Główna</a></li>
+                        <li><a href="#title" target="">Strona Główna</a></li>
                         <li><a href="#">Rejestracja</a></li>
-                        <li><a href="#">Harmonogram</a></li>
-                        <li><a href="#">Zakwaterowanie</a></li>
-                        <li><a href="#">Partnerzy</a></li>
-                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#timetable">Harmonogram</a></li>
+                        <li><a href="#accomodation">Zakwaterowanie</a></li>
+						<li><a href="#contact">Kontakt</a></li>
+                        <li><a href="#partners">Partnerzy</a></li>                        
                     </nav>
                 </ul>
         </header>
@@ -80,12 +80,39 @@
                     <div id="logos-holder">
                         <div id="put-logo" class="logo"></div><div id="sspp-logo" class="logo"></div><div id="pan-logo" class="logo"></div>
                     </div>
+                    <h3>ZAPROSZENIE</h3>
+                    <div class="white-box">Nie muszę państwa przekonywać, że nowy model działalności koliduje z dotychczasowymi zasadami form działalności organizacyjnej ukazuje nam efekt kolejnych kroków w określaniu istniejących kryteriów ukazuje nam horyzonty systemu powszechnego uczestnictwa. Każdy już mówiłem jasne jest ważne zadanie w wypracowaniu modelu rozwoju. Często błędnie postrzeganą sprawą jest to, że nowy model działalności powoduje docenianie wag dalszych kierunków postępowego wychowania. </div> 
+                    <iframe src="https://www.youtube.com/embed/j-CA08prcfY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <a href="http://put.poznan.pl">REJESTRACJA</a>
                 </div>
             </div>
 
             <div id="group-about" class="p-group">
                 <div id="about" class="subpage p-layer p-layer-front">
                     <h3>O NAS</h3>
+                    <div class="red-bg">     
+                        <div class="white-box">
+                            <p>
+                                Politechnika Poznańska oferuje kształcenie na dziesięciu wydziałach, 
+                                prowadzących łącznie 27 kierunków studiów. 
+                                Na uczelni studiuje ponad 20 tysięcy studentów studiów I i II stopnia, 
+                                studiów doktoranckich oraz studiów podyplomowych. 
+                            </p>
+                            
+                            <p>
+                                O ich wykształcenie troszczy się ponad 1200 nauczycieli akademickich. 
+                                Realizacja misji Uczelni pozwala urzeczywistnić wizję Politechniki Poznańskiej, 
+                                jako czołowego w kraju uniwersytetu technicznego, 
+                                z aspiracjami do bycia partnerem uczelni europejskich pod względem jakości kształcenia 
+                                oraz poziomu badań naukowych. 
+                            </p>
+
+                        </div>                       
+                    </div>
+                   
+                   
+
+
                 </div>
                 <div class="p-layer p-layer-back"></div>   
             </div>
@@ -104,31 +131,173 @@
                 </div>      
             </div>
 
+
+            <script type="text/javascript" src="js/panels-about.js"></script>
             <div id="group-panels" class="p-group">
                 <div id="panels" class="subpage p-layer p-layer-front">
                         <h3>PANELE</h3>
+                        <form id="panels">
+                            <input type="radio" id="button-big" name="panels" onchange="display_panels();">
+                            <label for="button-big" id="button-big">Genialny Mówca</label>
+                            <div class="panels-about panels-hidden" id="panel0-block0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation 
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+                                        <p>
+                                        Duis aute irure dolor in reprehenderit in voluptate 
+                                        velit esse cillum dolore eu fugiat nulla pariatur. 
+                                        Excepteur sint occaecat cupidatat non proident, 
+                                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>                                    
+                                </div>
+
+                            <div class="panels-block">
+
+                                <h4>BLOK I</h4>
+                                <input type="radio" id="panel1" name="panels" onchange="display_panels();">
+                                <label for="panel1">Genialny Mówca</label>
+                                <div class="panels-about panels-hidden" id="panel1-block1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation 
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+                                    <p>
+                                        Duis aute irure dolor in reprehenderit in voluptate 
+                                        velit esse cillum dolore eu fugiat nulla pariatur. 
+                                        Excepteur sint occaecat cupidatat non proident, 
+                                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>                                    
+                                </div>
+
+
+                                <input type="radio" id="panel2" name="panels"  onchange="display_panels();">
+                                <label for="panel2">Genialny Mówca</label>
+                                <div class="panels-about panels-hidden" id="panel2-block1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation 
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+                                    <p>
+                                        Duis aute irure dolor in reprehenderit in voluptate 
+                                        velit esse cillum dolore eu fugiat nulla pariatur. 
+                                        Excepteur sint occaecat cupidatat non proident, 
+                                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>                                    
+                                </div>
+                            </div>
+                            <div class="panels-block" id="block2">
+                                <h4>BLOK II</h4>
+                                <input type="radio" id="panel3" name="panels"  onchange="display_panels();">
+                                <label for="panel3">Genialny Mówca</label>
+                                <div class="panels-about panels-hidden" id="panel1-block2">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation 
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+                                    <p>
+                                        Duis aute irure dolor in reprehenderit in voluptate 
+                                        velit esse cillum dolore eu fugiat nulla pariatur. 
+                                        Excepteur sint occaecat cupidatat non proident, 
+                                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>                                    
+                                </div>
+
+
+                                <input type="radio" id="panel4" name="panels"  onchange="display_panels();">
+                                <label for="panel4">Genialny Mówca</label>
+                                <div class="panels-about panels-hidden" id="panel2-block2">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation 
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+                                    <p>
+                                        Duis aute irure dolor in reprehenderit in voluptate 
+                                        velit esse cillum dolore eu fugiat nulla pariatur. 
+                                        Excepteur sint occaecat cupidatat non proident, 
+                                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>                                    
+                                </div>
+
+
+                            </div>
+                        </form>
                 </div>
                 <div class="p-layer p-layer-back"></div>  
             </div>
 
+           
             <div id="group-accomodation" class="p-group">
                 <div id="accomodation" class="subpage p-layer p-layer-front">
                         <h3>ZAKWATEROWANIE</h3>
+                        <div class="red-bg">     
+                            <h4>Hotel Novotel Poznań Centrum</h4>
+                            <div class="white-box">
+                                <p>
+                                    Uczestnicy zostaną zakwaterowani w Hotelu Novotel Poznań Centrum 
+                                    (pl. Andersa 1, 61-898 Poznań, Tel. +48 61 858 70 00) 
+                                </p>
+                                <p>
+                                    Hotel znajduje się w pobliżu dworca PKP Poznań Główny, 
+                                    stąd najwygodniejszą formą dojazdu jest pociąg. 
+                                    Z hotelu jest blisko zarówno do Międzynarodowych Targów Poznańskich, 
+                                    dworca PKP czy do Starego Rynku. Pokoje w hotelach Novotel są przestrzenne, 
+                                    charakteryzują się nowoczesnym wystrojem i przystosowalnością, 
+                                    przez to spełniają wszelkie potrzeby gości. Wyposażenie pokoju obejmuje: 
+                                    klimatyzację, telewizję kablową, dostęp do Internetu, 
+                                    zestaw do parzenia kawy i herbaty oraz przestronną łazienkę. 
+                                    Każdy uczestnik ma zapewnione śniadanie w hotelu po każdym noclegu.
+                                </p>
+    
+                            </div>                       
+                        </div>
                 </div>
                 <div class="p-layer"></div>  
             </div>
 
-            <div id="" class="p-group">
-                <div id="partners" class="subpage p-layer p-layer-front">
+			<div id="group-contact" class="p-group">
+                <div id="contact" class="subpage p-layer p-layer-front">
                     <h3>KONTAKT</h3>
+                    <div id="foto-holder">
+                            <div class="foto-section">
+                                <h4>Tomek Cielewicz</h4>
+                                <div id="foto1-logo" class="logo"></div>
+                                <h4>Koordynator ds. partnerów biznesowych</h4>
+                                <h5>123 234 345</h5>
+                                <h5>tomek.cielewicz@samorzad.put.poznan.pl</h5>
+                            </div>
+
+                            <div class="foto-section">
+                                <h4>Tomasz Kwapiszewski</h4>
+                                <div id="foto2-logo" class="logo"></div>
+                                <h4>Koordynator <br>Główny</h4>
+                                <h5>123 234 345</h5>
+                                <h5>tomek.kwapiszewski@samorzad.put.poznan.pl</h5>
+                            </div>
+
+                            <div class="foto-section">
+                                    <h4>Tomcio FUTmen</h4>
+                                    <div id="foto3-logo" class="logo"></div>
+                                    <h4>Koordynator ds. rejestracji</h4>
+                                    <h5>123 234 345</h5>
+                                    <h5>tomek.cielewicz@samorzad.put.poznan.pl</h5>
+                            </div>
+                        </div>
                 </div>
             </div>
-
+			
             <div id="" class="p-group">
-                <div id="contact" class="subpage p-layer p-layer-front">
+                <div id="partners" class="subpage p-layer p-layer-front">
                     <h3>PARTNERZY</h3>
                 </div>
             </div>
+
+            
         </div>  <!-- parallax -->
     </body>
 </html>
