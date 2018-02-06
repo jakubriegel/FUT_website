@@ -5,6 +5,10 @@
 html{
 	height: 100%;
 }
+
+html::-webkit-scrollbar { 
+    display: none; 
+}
 body{
 	background-color: #eee;
 	margin: 0;
@@ -33,7 +37,6 @@ h3{
 header{
 	z-index: 1001;
 	position: fixed;
-	height: 60px;
 	width: 100%;
 
 	background: linear-gradient(black, transparent);
@@ -191,9 +194,120 @@ header{
 
 
 #timetable{
-	background-color: #fff;
+	display: block;
+	height: fit-content;
+	box-sizing: border-box;
+	padding-bottom: 20px;
 
+	background-color: #fff;
 }
+
+	#timetable .dayname-holder{
+		width: 50%;
+		height: 7vw;
+		clear: both;
+		display: inline-block;
+		margin: 14px 0 10px 0;
+	}
+
+	#timetable .dayname-holder.left{
+		margin-right: 50% ;
+	}
+
+	#timetable .dayname-holder.right{
+		margin-left: 50%;
+	}
+
+	#timetable h5{
+		top: 50%;
+		position: relative;
+
+		font-size: 1.8em;
+		text-align: center;
+	}
+
+	#timetable h5.left{
+		float: right;
+		transform: translateX(30%) translateY(-50%);
+	}
+
+	#timetable h5.right{
+		float: left;
+		transform: translateX(-30%) translateY(-50%);
+		top: 50%;
+	}
+
+	#timetable .day-img{
+		height: 7vw;
+		width: 7vw;
+		
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	#timetable .day-img.left{
+		float: right;
+		transform: translateX(50%);
+	}
+
+	#timetable .day-img.right{
+		float: left;
+		transform: translateX(-50%);
+	}
+
+		#timetable #thu-img{
+			background-image: url(../images/thu.png);
+		}
+
+		#timetable #fri-img{
+			background-image: url(../images/fri.png);
+		}
+
+		#timetable #sat-img{
+			background-image: url(../images/sat.png);
+		}
+
+		#timetable #sun-img{
+			background-image: url(../images/sun.png);
+		}
+
+	#timetable ul.left{
+		width: 50%;
+		float: left;
+		border-right: 2px solid #82152b;
+		padding: 0 1% 0 0;
+		box-sizing: border-box;
+
+		text-align: right;
+	}
+
+	#timetable ul.right{
+		width: 49%;
+		float: right;
+		border-left: 2px solid #82152b;
+		padding: 0 0 0 1%;
+
+		text-align: left;
+	}
+
+	#timetable ul li{
+		list-style: none;
+		margin: 5px 0;
+
+		font-size: 1.2em;
+	}
+
+	#timetable ul li.event_extended{
+		color: #9c7c83;
+	}
+
+	#timetable ul li.event_now{
+		color: #82152b;
+		font-weight: bold;
+	}
+
+
 
 #panels{
 	

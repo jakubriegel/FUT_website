@@ -12,6 +12,11 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+        <script type="text/javascript" src="js/timer.js"></script>
+        <script type="text/javascript" src="timetable.js"></script>
+        <script type="text/javascript" src="js/timetable-prep.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
     </head>
     <body>
         <header>
@@ -46,7 +51,6 @@
                 <div id="title" class="subpage p-layer p-layer-front">
                     <div id="logo"></div>
                     <div id="zegar"> 
-                        <script type="text/javascript" src="js/timer.js"></script>
                         <div>                
                             <h1>Forum Uczelni Technicznych - Poznań 2018</h1>
                             <div id="timer">
@@ -88,9 +92,16 @@
 
             <div id="group-timetable" class="p-group">
                 <div id="timetable" class="subpage p-layer p-layer-front">
-                        <h3>HARMONOGRAM</h3>
+                    <h3>HARMONOGRAM</h3>
+                        <div class="dayname-holder right"><div id="thu-img" class="day-img right"></div><h5 class="right">czwartek</h5></div>
+                        <ul id="thursday-plan" class="right"></ul>
+                        <div class="dayname-holder left"><div id="fri-img" class="day-img left"></div><h5 class="left">piątek</h5></div>
+                        <ul id="friday-plan" class="left"></ul>
+                        <div class="dayname-holder right"><div id="sat-img" class="day-img right"></div><h5 class="right">sobota</h5></div>
+                        <ul id="saturday-plan" class="right"></ul>
+                        <div class="dayname-holder left"><div id="sun-img" class="day-img left"></div><h5 class="left">niedziela</h5></div>
+                        <ul id="sunday-plan" class="left"></ul>
                 </div>      
-                       
             </div>
 
             <div id="group-panels" class="p-group">
