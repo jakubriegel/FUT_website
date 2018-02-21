@@ -64,6 +64,7 @@
 }
 
 #group-timetable {
+  background-color: #fff;
   display: block;
   z-index: 10; 
 }
@@ -89,10 +90,20 @@
   background-position: center;
 }
 
+#group-trivia{
+  background-color: rgba(131,6,40,0.6);
+}
+
+#group-trivia .p-layer {
+  background-image: url("../images/kampus.png");
+  background-size: cover;
+  background-position: center;
+}
+
 #group-contact{
   display: block;
   z-index: 10;
-  height: 70%;
+  height: 75%;
 }
 
 #group-instagram{

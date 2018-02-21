@@ -27,6 +27,7 @@ h3{
 	text-align: center;
 	color: #fff;
 	font-size: 2em;
+	padding: 0.1em;
 }
 
 
@@ -91,7 +92,7 @@ header{
 	#title #logo{
 		margin: 4% auto 0 auto;
 		width: 100%;
-		height: 75%;
+		height: 55%;
 
 		background-image: url("../images/logos/FUT_poznan.png");
 		background-position: center;
@@ -198,19 +199,18 @@ header{
 		color: #830628;
 		width: 59%;
 		height: 20%;
-		margin: 0.5em 0;
+		margin: 0.5em auto;
 		padding: 1em;
 	}
 	#organizers a{
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0.2em auto;
 
 		background-color: #fff;
 		border: #830628 8px solid;
 		width: 63%;
 		font-size: 4em;
-		margin-top: 0.5em;
+		
 		text-align: center;
 		text-decoration: none;
 		color: #000;
@@ -527,6 +527,7 @@ h4{
 }
 
 #trivia-box{
+	 background-color: rgba(131,6,40,0.6);
 	color: #fff;
 	font-size: 2em;
 	text-align: center;
@@ -558,175 +559,22 @@ footer{
 	background-color: #830628;
 	color: #fff;
 	padding: 1em;
+	font-size: 1em;
 }
 
-/* responsive */
-/*smartphone-portrait*/
-@media only screen and (max-width: 766px) and (orientation: portrait){
-	header img{
-		height: 40px;
-		margin: 5px 0;
-	}
+footer #put-logo{
+	width: 250px;
+	height: 100%;
+	display: inline-block;
+	margin: 0 30px;
 
-	header li{
-		padding: 0.5em;
-		font-size: .8em;
-	}
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 
-	header ul.menu{
-		width: 100%;
-	}
-
-	#title #logo{
-		height: 70%;
-
-		background-size: 40%;
-	}
-
-	#title #zegar{
-		height: 20%;
-	}
-
-	#zegar h1{
-		font-size: .5em;
-	}
-
-	#zegar #timer .time{
-		font-size: .8em;
-	}
-
-	#zegar #timer .description{
-		font-size: .3em;
-		line-height: .35em;
-	}
-
-	#organizers #logos-holder{
-		/*height: auto;
-		
-		transform: translateX(-50%);
-		position: relative;
-		left: 50%;
-		margin: 50px 0;*/
-		height: 20%;
-		width: 100%;
-		margin: 0;
-	}
-
-	#organizers .logo{
-		/*width: 250px;
-		height: 100%;
-		display: inline-block;
-		margin: 0 30px;
-
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;*/
-		width: 100%;
-		height: 25%;
-		margin: 2% 0;
-	}
-
-	
-	#organizers .white-box{
-		/*color: #830628;
-		width: 59%;
-		height: 20%;
-		margin: 0.5em 0;
-		padding: 1em;*/
-		width: 100%;
-		height: 50%;
-		padding: 0;
-		border: none;
-	}
-
-	#organizers iframe{
-		/*margin-left: auto;
-		margin-right: auto;
-		
-		height: 35.4375%;
-		display: block;*/
-		width: 100%;
-		height: 15%;
-	}
-
-	#organizers a{
-		/*display: block;
-		margin-left: auto;
-		margin-right: auto;
-
-		background-color: #fff;
-		border: #830628 8px solid;
-		width: 63%;
-		font-size: 4em;
-		margin-top: 0.5em;
-		text-align: center;
-		text-decoration: none;
-		color: #000;
-		overflow: hidden;
-		transition: all 0.3s ease 0s;*/
-		height: auto;
-		width: 90%;
-		margin: 1% auto;
-		border: #830628 2px solid;
-
-		font-size: 2em;
-	}
-
-
-
-	.red-bg{
-		/* background-color: #830628; */
-		/* background-color: rgba(131,6,40,0.6);
-		color: #fff;
-		height:100%;*/
-		width: 100%;
-		/*display:flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column; */
-	}
-	
-	h4{
-		/* font-size: 2.5em;
-		margin-bottom: 1em;
-		margin-top: 0;
-		text-align: center;
-		color: #fff; */
-		
-	}
-	
-	.white-box{
-		/* border: solid 2px;
-		color: #fff;
-		height:70%;
-		width: 80%;
-	
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		text-align: center;*/
-		font-size: 1em;
-		/*overflow: hidden; */
-	}
-	
-	.white-box p{	
-		/* color: #fff;
-		padding: 1em; */
-	}
-	
-	#trivia-box{
-		/* color: #fff; */
-		font-size: 1em;
-		/* text-align: center;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 90%;
-		padding: 0 1em; */
-	}
-
+	background-image: url("../images/logos/put_logo.png")
 }
+
 
 /*smartphone-small*/
 @media only screen and (max-width: 321px) and (orientation: portrait){
