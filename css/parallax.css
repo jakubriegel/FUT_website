@@ -90,6 +90,11 @@
 
 #group-contact{
   z-index: 10;
+  height: 70%;
+}
+
+#group-instagram{
+  z-index: 12;
 }
 
 

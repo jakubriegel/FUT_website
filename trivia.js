@@ -1,0 +1,9 @@
+var trivia = [
+    {"content":"Wygłoszone przez Ignacego Jana Paderewskiego przemówienie z okna hotel Bazar 25 grudnia 1918r. było wstępem do Powstania Wielkopolskiego, które wybuchło następnego dnia." },
+    {"content":"W okresie II wojny światowej Cytadela (zwana inaczej Fortem Winiary) stanowiła ostatni punkt oporu Niemców i została zdobyta 23 lutego 1945 roku." },
+    {"content":"Poznański Czerwiec 1956 r. był pierwszym w Polsce masowym wystąpieniem robotniczym przeciwko komunistycznym władzom i w bardzo poważnym stopniu przyspieszył zmiany polityczno-gospodarcze w PRL." },
+    {"content":"Na pamiątkę strajku generalnego rozpoczętego przez robotników w poznańskich Zakładach im. Stalina (obecnie im. Hipolita Cegielskiego) ulica, na której znajdują się zakłady Cegielskiego nosi dziś nazwę 28 czerwca 1956." },
+    {"content":"Akcja Bollwerk uznawana jest za największy atak ruchu oporu w Wielkopolsce w czasie II wojny światowej, kiedy to w nocy z 21 na 22 lutego 1942 roku. Jej uczestnicy - żołnierze Armii Krajowej oraz mieszkańcy Chwaliszewa - podpalili magazyny z żywnością, mundurami i bronią znajdujące się w porcie rzecznym." },
+    {"content":"Absolwenci Uniwersytetu Poznańskiego Henryk Zygalski, Marian Rejewski i Jerzy Różycki złamali kod niemieckiej maszyny szyfrującej Enigma." },
+    {"content":"Najważniejszym wydarzeniem w okresie międzywojennym była Powszechna Wystawa Krajowa, zorganizowana w celu prezentacji osiągnięć pierwszego dziesięciolecia niepodległej Polski. Była to imprez targowa jaka dotychczas miała miejsce w Polsce, wystawę odwiedziło 4 miliony osób." }
+];

@@ -77,7 +77,15 @@
                         <div id="put-logo" class="logo"></div><div id="sspp-logo" class="logo"></div><div id="pan-logo" class="logo"></div>
                     </div>
                     <h3>ZAPROSZENIE</h3>
-                    <div class="white-box">Nie muszę państwa przekonywać, że nowy model działalności koliduje z dotychczasowymi zasadami form działalności organizacyjnej ukazuje nam efekt kolejnych kroków w określaniu istniejących kryteriów ukazuje nam horyzonty systemu powszechnego uczestnictwa. Każdy już mówiłem jasne jest ważne zadanie w wypracowaniu modelu rozwoju. Często błędnie postrzeganą sprawą jest to, że nowy model działalności powoduje docenianie wag dalszych kierunków postępowego wychowania. </div> 
+                    <div class="white-box">
+                        Koleżanki i Koledzy!
+                        Jest nam niezmiernie miło zaprosić Was do uczestnictwa w Sesji Roboczej Forum Uczelni Technicznych,
+                        która odbędzie się w Poznaniu w dniach 12-15 kwietnia 2018r.
+                        Dołożyliśmy wszelkich starań, aby przyjazd tutaj był przede wszystkim bogaty merytorycznie,
+                        oraz stworzył niezliczoną ilość okazji do wymiany doświadczeń i dobrych praktyk.
+                        Jesteśmy przekonani, że wyjedziecie stąd pełni energii oraz zapału do dalszej,
+                        samorządowej pracy. 
+                    </div> 
                     <iframe src="https://www.youtube.com/embed/j-CA08prcfY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     <a href="http://put.poznan.pl">REJESTRACJA</a>
                 </div>
@@ -279,7 +287,42 @@
                         </div>
                 </div>
             </div>
-			
+            
+            <script type="text/javascript" src="js/instafeed.min.js"></script>        
+            <script type="text/javascript">
+            //http://instafeedjs.com/
+                var feed = new Instafeed({
+                    get: 'tagged',
+                    tagName: 'test4tested',
+                    clientId: '7db7613cefb84bedb7c84ddaaee49ff9',
+                    //tym użytkownikiem pobieramy tagi i usuwamy posty
+                    accessToken: '6568611856.ba4c844.cbb87d3048df4a49863b17745cb2c9cc',
+                    //
+                    filter: function(image) {
+                        return !image.user_has_liked;
+                        //jeśli jest polajkowany to go usuwamy
+                    }
+                }); 
+                feed.run();
+            </script>
+
+            <script type="text/javascript" src="trivia.js"></script>     
+            <script type="text/javascript" src="js/trivia-logic.js"></script>        
+               
+            <div id="group-trivia" class="p-group">
+                    <div id="trivia" class="subpage p-layer p-layer-front">
+                        <h3>CIEKAWOSTKI O POZNANIU</h3>
+                        <div id="trivia-box"></div>
+                    </div>
+            </div>
+
+            <div id="group-instagram" class="p-group">
+                <div id="instagram" class="subpage p-layer p-layer-front">
+                    <h3>#FUTpoznan</h3>
+                    <div id="instafeed"></div>
+                </div>
+            </div>
+
             <div id="" class="p-group">
                 <div id="partners" class="subpage p-layer p-layer-front">
                     <h3>PARTNERZY</h3>

@@ -424,6 +424,22 @@ h4{
 		background-image: url("../images/contact/slice3.png")
 	}
 
+#group-trivia{
+	background-color: #82152b;
+	height:50%;
+}
+
+	
+
+#group-instagram{
+	background-color: #fff;
+}
+
+
+	#group-instagram img{
+		border: solid #000 4px;
+		margin: 1em;
+	}
 
 /* responsive */
 
