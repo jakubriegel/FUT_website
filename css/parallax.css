@@ -128,4 +128,8 @@
   #group-title .p-layer-back {
     background-position-x: right;
   }
+
+  #group-organizers {
+    height: 200%;
+  }
 }
