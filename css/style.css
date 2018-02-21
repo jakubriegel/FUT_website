@@ -23,7 +23,7 @@ body{
 
 
 h3{
-	background-color: #82152b;
+	background-color: #830628;
 	text-align: center;
 	color: #fff;
 	font-size: 2em;
@@ -51,7 +51,7 @@ header{
 		transition: all 0.2s ease 0s;
 	}
 	header a:hover{
-		color: #82152b;
+		color: #830628;
 
 	}
 
@@ -195,7 +195,7 @@ header{
 	}
 
 	#organizers .white-box{
-		color: #82152b;
+		color: #830628;
 		width: 59%;
 		height: 20%;
 		margin: 0.5em 0;
@@ -207,7 +207,7 @@ header{
 		margin-right: auto;
 
 		background-color: #fff;
-		border: #82152b 8px solid;
+		border: #830628 8px solid;
 		width: 63%;
 		font-size: 4em;
 		margin-top: 0.5em;
@@ -218,11 +218,12 @@ header{
 		transition: all 0.3s ease 0s;
 	}
 	#organizers a:hover{
-		background-color: #82152b;
+		background-color: #830628;
 		color: #fff;
 	}
 
 .red-bg{
+	/* background-color: #830628; */
 	background-color: rgba(130,21,43,0.6);
 	color: #fff;
 	height:100%;
@@ -344,7 +345,7 @@ h4{
 	#timetable ul.left{
 		width: 50%;
 		float: left;
-		border-right: 2px solid #82152b;
+		border-right: 2px solid #830628;
 		padding: 0 1% 0 0;
 		box-sizing: border-box;
 
@@ -354,7 +355,7 @@ h4{
 	#timetable ul.right{
 		width: 49%;
 		float: right;
-		border-left: 2px solid #82152b;
+		border-left: 2px solid #830628;
 		padding: 0 0 0 1%;
 
 		text-align: left;
@@ -372,7 +373,7 @@ h4{
 	}
 
 	#timetable ul li.event_now{
-		color: #82152b;
+		color: #830628;
 		font-weight: bold;
 	}
 
@@ -408,12 +409,12 @@ h4{
 
 	input:checked + label{
 		background-color: #fff;
-		color: #82152b;
+		color: #830628;
 	}
 
 	#label:hover + label{
 		background-color: #fff;
-		color: #82152b;
+		color: #830628;
 	}
 
 	#panels .panels-about{
@@ -448,6 +449,7 @@ h4{
 	}
 
 	.panels-block{
+		margin-top: 2em;
 		width: 45%;
 	}
 
@@ -519,6 +521,38 @@ h4{
 		background-image: url("../images/contact/slice3.png")
 	}
 
+#group-trivia{
+	background-color: #830628;
+	height:50%;
+}
+
+#trivia-box{
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90%;
+	padding: 0 1em;
+}
+
+
+#group-instagram{
+	background-color: #fff;
+}
+
+
+	#group-instagram img{
+		border: solid #000 4px;
+		margin: 1em;
+	}
+
+	#instafeed{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
 
 /* responsive */
 /*smartphone-portrait*/

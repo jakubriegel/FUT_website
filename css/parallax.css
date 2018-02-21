@@ -92,6 +92,11 @@
 #group-contact{
   display: block;
   z-index: 10;
+  height: 70%;
+}
+
+#group-instagram{
+  z-index: 12;
 }
 
 
