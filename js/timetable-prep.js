@@ -12,7 +12,7 @@ function createTimetable(){
     var listItem;
 
     var date = new Date();
-    var timeNow = {month:date.getMonth(), day:date.getDate(), hour:date.getHours(), minutes:date.getMinutes()};
+    var timeNow = {month:date.getMonth(), day:date.getDate(), hour:date.getHours(), minutes:date.getMinutes()};a
     
     // function happeningNow() requires events to be sorted
     timetable.sort(function(a,b){
@@ -60,7 +60,7 @@ function createTimetable(){
 }
 
 function happeningNow(i, timeNow){
-    if(timeNow.month == 1) if(timetable[i].time[0] == timeNow.day){
+    if(timeNow.month == 3) if(timetable[i].time[0] == timeNow.day){
         if(i != timetable.length-1){ // case event is not last
             if(timetable[i].time[1] == timeNow.hour){
                 if(timetable[i].time[2] <= timeNow.minutes){
