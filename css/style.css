@@ -486,13 +486,13 @@ h4{
 	#contact .foto-section h4{
 		margin: 15px;
 		color: #000;
-		font-size: 25px;
+		font-size: 23px;
 		line-height: 25px;
 	}
 
 	#contact .foto-section h5{
 		text-align: center;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 18px;
 	}
 
@@ -541,6 +541,7 @@ h4{
 
 #group-instagram{
 	background-color: #fff;
+	height: 125%;
 }
 
 
@@ -549,11 +550,11 @@ h4{
 		margin: 1em;
 	}
 
-	#instafeed{
-		display: flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
-	}
+		#instafeed{
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+		}
 
 footer{
 	background-color: #830628;
@@ -563,9 +564,8 @@ footer{
 }
 
 footer #put-logo{
-	width: 250px;
-	height: 100%;
-	display: inline-block;
+	padding: 4em;
+	float: right;
 	margin: 0 30px;
 
 	background-size: contain;

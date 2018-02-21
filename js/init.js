@@ -3,7 +3,7 @@ window.onload = function(){
     createTimetable();
     createTrivia();
 
-    finalizeLayout();   
+    //finalizeLayout();   
 }
 
 function finalizeLayout(){

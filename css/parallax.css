@@ -103,7 +103,8 @@
 #group-contact{
   display: block;
   z-index: 10;
-  height: 75%;
+  height: 80%;
+  background-color: #fff;
 }
 
 #group-instagram{

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>FUT - Strona Testowa</title>
+        <title>Forum Uczelni Technicznych - Poznaniu 2018</title>
         <meta charset="UTF-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +46,7 @@
                                     </div>
                                     <nav>
                                         <li><a href="#title" target="">Strona Główna</a></li>
-                                        <li><a href="#">Rejestracja</a></li>
+                                        <li><a href="#invitation">Rejestracja</a></li>
                                         <li><a href="#timetable">Harmonogram</a></li>
                                         <li><a href="#accomodation">Zakwaterowanie</a></li>
                                         <li><a href="#contact">Kontakt</a></li>
@@ -85,7 +85,7 @@
                     <div id="logos-holder">
                         <div id="put-logo" class="logo"></div><div id="sspp-logo" class="logo"></div><div id="pan-logo" class="logo"></div>
                     </div>
-                    <h3>ZAPROSZENIE</h3>
+                    <h3 id="invitation">ZAPROSZENIE</h3>
                     <div class="white-box">
                         Koleżanki i Koledzy! <br>
                         Jest nam niezmiernie miło zaprosić Was do uczestnictwa w Sesji Roboczej Forum Uczelni Technicznych,
@@ -283,7 +283,7 @@
                                 <div id="foto1-logo" class="logo"></div>
                                 <h4>Koordynator ds. Partnerów Biznesowych</h4>
                                 <h5>603 132 148</h5>
-                                <h5>tomek.cielewicz@samorzad.put.poznan.pl</h5>
+                                <h5>tomek.cielewicz@<wbr>samorzad.put.poznan.pl</h5>
                             </div>
 
                             <div class="foto-section">
@@ -291,7 +291,7 @@
                                 <div id="foto2-logo" class="logo"></div>
                                 <h4>Koordynator <br>Główny</h4>
                                 <h5>514 906 598</h5>
-                                <h5>tomek.kwapiszewski@samorzad.put.poznan.pl</h5>
+                                <h5>tomek.kwapiszewski@<wbr>samorzad.put.poznan.pl</h5>
                             </div>
 
                             <div class="foto-section">
@@ -299,7 +299,7 @@
                                     <div id="foto3-logo" class="logo"></div>
                                     <h4>Koordynator ds. Rejestracji</h4>
                                     <h5>123 234 345</h5>
-                                    <h5>tomek.cielewicz@samorzad.put.poznan.pl</h5>
+                                    <h5>tomek.cielewicz@<wbr>samorzad.put.poznan.pl</h5>
                             </div>
                     </div>
                 </div>
@@ -315,6 +315,8 @@
                     //tym użytkownikiem pobieramy tagi i usuwamy posty
                     accessToken: '6568611856.ba4c844.cbb87d3048df4a49863b17745cb2c9cc',
                     //
+
+                    template: '<a href="{{link}}" ><img src="{{image}}" /></a>',
                     filter: function(image) {
                         return !image.user_has_liked;
                         //jeśli jest polajkowany to go usuwamy
@@ -349,12 +351,19 @@
             </div> -->
 
             <footer>
+                    <div id="put-logo" class="logo"></div>
                 <ul>
-                    <li>Administator strony: Maciej Stosik maciej.stosik@samorzad.put.poznan.pl</li>
-                    <li>Osoba odpowiedzialna za treść: Tomasz Kwapiszewski tomek.kwapiszewski@samorzad.put.poznan.pl</li>
+                    <li>Administator strony - Maciej Stosik <br>
+                        maciej.stosik@samorzad.put.poznan.pl
+                    </li>
+                    <br>
+                    <li>Osoba odpowiedzialna za treść - Tomasz Kwapiszewski<br>
+                        tomek.kwapiszewski@samorzad.put.poznan.pl
+                    </li>
                 </ul>
+                <br>
                 <h5>Strona znajduje się na serwerze Poltechniki Poznańskiej</h5>
-                <div id="put-logo" class="logo">
+                
             </footer>
         </div>  <!-- parallax -->
     </body>
