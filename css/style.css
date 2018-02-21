@@ -543,6 +543,15 @@ h4{
 	height:50%;
 }
 
+#trivia-box{
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90%;
+}
 	
 
 #group-instagram{

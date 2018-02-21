@@ -1,20 +1,20 @@
-window.onload = function(){
-    createTrivia();
+function createTrivia(){
+
+    var triviaBox;
+    var index;
+    index = Math.floor(Math.random()*10);
+
+
+    triviaBox = document.getElementById('trivia-text');
+    
+    setInterval(randomTrivia, 10000);
+    function randomTrivia(){
+        if(index >= trivia.length){
+            index = 0;
+        }
+    
+        triviaBox.innerHTML = trivia[index].content;
+        index += 1;
+    }
 }
 
-var triviaBox;
-triviaBox = document.getElementById('trivia-box');
-
-var triviaCount;
-triviaCount = trivia.length();
-
-function createTrivia(){   
-    setInterval(randomTrivia(index, 1000));
-
-}
-
-function randomTrivia(prevIndex){
-    index = prevIndex + 1;
-
-    triviaBox.innerHTML = trivia[index].content;
-}
