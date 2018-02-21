@@ -1,28 +1,25 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 12 2018 18:00:00" ).getTime();
+var countDownDate;
+var distance;
 
 var daysDiv;
 var hoursDiv;
 var minutesDiv;
 var secondsDiv;
 
-window.onload = function(){
+function startTimer(){
+  countDownDate = new Date("Apr 12 2018 18:00:00" ).getTime();
   
-  // Update the count down every 1 second
-  var x = setInterval(function() {
-
-    daysDiv = document.getElementById('days');
+  daysDiv = document.getElementById('days');
   hoursDiv = document.getElementById('hours');
   minutesDiv = document.getElementById('minutes');
   secondsDiv = document.getElementById('seconds');
 
-    // Get todays date and time
-    var now = new Date().getTime();
+  var now = new Date().getTime();
+  distance = countDownDate - now;
 
-    // Find the distance between now an the count down date
-    var distance = countDownDate - now;
+  var timer = setInterval(function() {
 
-    // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -33,10 +30,13 @@ window.onload = function(){
     minutesDiv.innerHTML = minutes;
     secondsDiv.innerHTML = seconds;
     
-    // If the count down is finished, write some text 
+    // case coutdown has finished
     if (distance < 0) {
-      clearInterval(x);
+      clearInterval(timer);
       document.getElementById("timer").innerHTML = "Zapraszamy!";
     }
+
+    distance -= 1000;
+
   }, 1000);
 }
