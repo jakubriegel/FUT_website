@@ -36,7 +36,7 @@ h3{
 
 header{
 	z-index: 1001;
-	position: fixed;
+	position: relative;
 	width: 100%;
 
 	background: linear-gradient(black, transparent);
@@ -224,7 +224,7 @@ header{
 
 .red-bg{
 	/* background-color: #830628; */
-	background-color: rgba(130,21,43,0.6);
+	background-color: rgba(131,6,40,0.6);
 	color: #fff;
 	height:100%;
 	width: 50%;
@@ -392,7 +392,7 @@ h4{
 		margin-left: auto;
 		margin-right: auto;
 
-		background-color: rgba(130,21,43,0.6);
+		background-color: rgba(131,6,40,0.6);
 		border: #fff 4px solid;
 		/* width: 85%; */
 		font-size: 3em;
@@ -418,7 +418,7 @@ h4{
 	}
 
 	#panels .panels-about{
-		background-color: rgba(130,21,43,0.6);
+		background-color: rgba(131,6,40,0.6);
 		border: #fff 4px solid;
 		box-sizing: border-box;
 		margin-left: auto;
@@ -554,6 +554,12 @@ h4{
 		flex-wrap: wrap;
 	}
 
+footer{
+	background-color: #830628;
+	color: #fff;
+	padding: 1em;
+}
+
 /* responsive */
 /*smartphone-portrait*/
 @media only screen and (max-width: 766px) and (orientation: portrait){
@@ -622,7 +628,7 @@ h4{
 
 	
 	#organizers .white-box{
-		/*color: #82152b;
+		/*color: #830628;
 		width: 59%;
 		height: 20%;
 		margin: 0.5em 0;
@@ -649,7 +655,7 @@ h4{
 		margin-right: auto;
 
 		background-color: #fff;
-		border: #82152b 8px solid;
+		border: #830628 8px solid;
 		width: 63%;
 		font-size: 4em;
 		margin-top: 0.5em;
@@ -661,10 +667,65 @@ h4{
 		height: auto;
 		width: 90%;
 		margin: 1% auto;
-		border: #82152b 2px solid;
+		border: #830628 2px solid;
 
 		font-size: 2em;
 	}
+
+
+
+	.red-bg{
+		/* background-color: #830628; */
+		/* background-color: rgba(131,6,40,0.6);
+		color: #fff;
+		height:100%;*/
+		width: 100%;
+		/*display:flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column; */
+	}
+	
+	h4{
+		/* font-size: 2.5em;
+		margin-bottom: 1em;
+		margin-top: 0;
+		text-align: center;
+		color: #fff; */
+		
+	}
+	
+	.white-box{
+		/* border: solid 2px;
+		color: #fff;
+		height:70%;
+		width: 80%;
+	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		text-align: center;*/
+		font-size: 1em;
+		/*overflow: hidden; */
+	}
+	
+	.white-box p{	
+		/* color: #fff;
+		padding: 1em; */
+	}
+	
+	#trivia-box{
+		/* color: #fff; */
+		font-size: 1em;
+		/* text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 90%;
+		padding: 0 1em; */
+	}
+
 }
 
 /*smartphone-small*/

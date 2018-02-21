@@ -20,36 +20,37 @@
         <script type="text/javascript" src="js/init.js"></script>
     </head>
     <body>
-        <header>
-                <div class="debug">
-                    <label><input type="checkbox"> Debug</label>
-                    <script>
-                        var debugInput = document.querySelector("input");
-                        function updateDebugState() {
-                            document.body.classList.toggle('debug-on', debugInput.checked);
-                        }
-                        debugInput.addEventListener("click", updateDebugState);
-                        updateDebugState();
-                    </script>
-                </div>
-                <ul class="menu">
-                    <div id="logos">
-                        <img src="images/logos/SSPP_white.png" alt="Logo SSPP" height="50px">
-                        <img src="images/logos/FUT_white.png" alt="Logo FUT" height="75px">
-                    </div>
-                    <nav>
-                        <li><a href="#title" target="">Strona Główna</a></li>
-                        <li><a href="#">Rejestracja</a></li>
-                        <li><a href="#timetable">Harmonogram</a></li>
-                        <li><a href="#accomodation">Zakwaterowanie</a></li>
-						<li><a href="#contact">Kontakt</a></li>
-                        <li><a href="#partners">Partnerzy</a></li>                        
-                    </nav>
-                </ul>
-        </header>
+       
         <div class="parallax">
             <div id="group-title" class="p-group">
                 <div id="title" class="subpage p-layer p-layer-front">
+                        <header>
+                                <div class="debug">
+                                    <label><input type="checkbox"> Debug</label>
+                                    <script>
+                                        var debugInput = document.querySelector("input");
+                                        function updateDebugState() {
+                                            document.body.classList.toggle('debug-on', debugInput.checked);
+                                        }
+                                        debugInput.addEventListener("click", updateDebugState);
+                                        updateDebugState();
+                                    </script>
+                                </div>
+                                <ul class="menu">
+                                    <div id="logos">
+                                        <img src="images/logos/SSPP_white.png" alt="Logo SSPP" height="50px">
+                                        <img src="images/logos/FUT_white.png" alt="Logo FUT" height="75px">
+                                    </div>
+                                    <nav>
+                                        <li><a href="#title" target="">Strona Główna</a></li>
+                                        <li><a href="#">Rejestracja</a></li>
+                                        <li><a href="#timetable">Harmonogram</a></li>
+                                        <li><a href="#accomodation">Zakwaterowanie</a></li>
+                                        <li><a href="#contact">Kontakt</a></li>
+                                        <li><a href="#partners">Partnerzy</a></li>                        
+                                    </nav>
+                                </ul>
+                        </header>
                     <div id="logo"></div>
                     <div id="zegar"> 
                         <div>                
@@ -297,7 +298,6 @@
                                     <h5>123 234 345</h5>
                                     <h5>tomek.cielewicz@samorzad.put.poznan.pl</h5>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -345,7 +345,13 @@
                 </div>
             </div>
 
-            
+            <footer>
+                <ul>
+                    <li>Administator strony: Maciej Stosik maciej.stosik@samorzad.put.poznan.pl</li>
+                    <li>Osoba otpowiedzialna za treść: Tomasz Kwapiszewski tomek.kwapiszewski@samorzad.put.poznan.pl</li>
+                </ul>
+                <h5>Strona znajduje się na serwerze Poltechniki Poznańskiej</h5>
+            </footer>
         </div>  <!-- parallax -->
     </body>
 </html>

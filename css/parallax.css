@@ -110,6 +110,7 @@
   color: #fff;
   padding: .5em;
   border-radius: 0 0 5px 5px;
+  display: none;
 }
 .debug-on .p-group {
   -webkit-transform: translate3d(800px, 0, -800px) rotateY(30deg);

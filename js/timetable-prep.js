@@ -12,7 +12,7 @@ function createTimetable(){
     var listItem;
 
     var date = new Date();
-    var timeNow = {month:date.getMonth(), day:date.getDate(), hour:date.getHours(), minutes:date.getMinutes()};a
+    var timeNow = {month:date.getMonth(), day:date.getDate(), hour:date.getHours(), minutes:date.getMinutes()};
     
     // function happeningNow() requires events to be sorted
     timetable.sort(function(a,b){
