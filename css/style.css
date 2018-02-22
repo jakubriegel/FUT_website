@@ -21,6 +21,9 @@ body{
 	background-color: #0E1321;	
 }
 
+#orientation-mask{
+	display: none;
+}
 
 h3{
 	background-color: #830628;
@@ -458,6 +461,10 @@ h4{
 	background-color: #fff;
 }
 
+	#accomodation p{
+		padding: 0 0.5em;
+	}
+
 #partners{
 	background-color: #fff;
 }
@@ -578,6 +585,7 @@ footer{
 /* responsive */
 /*smartphone-portrait*/
 @media only screen and (max-width: 766px) and (orientation: portrait){
+	
 	h3{
 		font-size: 1.2em;
 	}
@@ -651,11 +659,57 @@ footer{
 		margin: 2% auto;
 		border: #82152b 2px solid;
 	}
-		
+
+	#timetable h5.left{
+		float: right;
+		transform: translateY(-50%);
+	}
+
+	#timetable h5.right{
+		float: left;
+		transform: translateY(-50%);
+		top: 50%;
+	}
+
+	#timetable ul.left{
+		width: 90%;
+		float: none;
+
+		text-align: right;
+	}
+
+	#timetable ul.right{
+		width: 90%;
+		float: none;
+		margin-left: 10%;
+
+		text-align: left;
+	}
+
 	#instafeed{
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
+	}
+
+
+	footer{
+		font-size: 0.8em;
+	}
+
+	footer #put-logo{
+		float: none;
+		margin: 5px auto;
+	}
+
+	footer ul{
+		clear: both;
+		list-style: none;
+		padding: 0;
+	}
+
+	footer h5{
+		text-align: center;
 	}
 }
 
@@ -692,26 +746,19 @@ footer{
 /*smartphone-landcape*/
 
 @media only screen and (max-width: 766px) and (orientation: landscape) {
+	.parallax{
+		display: none;
+	}
 	
+	#orientation-mask{
+		display: block;
+		height: 100vh;
+		width: 100vw;
+
+		background-color: #830628;;
+		background-image: url("../images/rotate.png");
+		background-size: 30%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 }
-
-
-/*---smallPC---*/
-
-@media only screen and (min-width: 901px) and (max-width: 1279px){
-	
-	
-}
-
-
-/*bigPC*/
-	@media only screen and (min-width: 1650px) and (max-width: 2558px){
-	
-}
-
-
-/*giantPC*/
-	@media only screen and (min-width: 2559px) and (max-width: 2561px){
-		
-}
-
