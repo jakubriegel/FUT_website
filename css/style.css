@@ -27,6 +27,7 @@ h3{
 	text-align: center;
 	color: #fff;
 	font-size: 2em;
+	padding: 0.1em;
 }
 
 
@@ -36,7 +37,7 @@ h3{
 
 header{
 	z-index: 1001;
-	position: fixed;
+	position: relative;
 	width: 100%;
 
 	background: linear-gradient(black, transparent);
@@ -91,7 +92,7 @@ header{
 	#title #logo{
 		margin: 4% auto 0 auto;
 		width: 100%;
-		height: 75%;
+		height: 55%;
 
 		background-image: url("../images/logos/FUT_poznan.png");
 		background-position: center;
@@ -198,19 +199,18 @@ header{
 		color: #830628;
 		width: 59%;
 		height: 20%;
-		margin: 0.5em 0;
+		margin: 0.5em auto;
 		padding: 1em;
 	}
 	#organizers a{
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0.2em auto;
 
 		background-color: #fff;
 		border: #830628 8px solid;
 		width: 63%;
 		font-size: 4em;
-		margin-top: 0.5em;
+		
 		text-align: center;
 		text-decoration: none;
 		color: #000;
@@ -224,7 +224,7 @@ header{
 
 .red-bg{
 	/* background-color: #830628; */
-	background-color: rgba(130,21,43,0.6);
+	background-color: rgba(131,6,40,0.6);
 	color: #fff;
 	height:100%;
 	width: 50%;
@@ -392,7 +392,7 @@ h4{
 		margin-left: auto;
 		margin-right: auto;
 
-		background-color: rgba(130,21,43,0.6);
+		background-color: rgba(131,6,40,0.6);
 		border: #fff 4px solid;
 		/* width: 85%; */
 		font-size: 3em;
@@ -418,7 +418,7 @@ h4{
 	}
 
 	#panels .panels-about{
-		background-color: rgba(130,21,43,0.6);
+		background-color: rgba(131,6,40,0.6);
 		border: #fff 4px solid;
 		box-sizing: border-box;
 		margin-left: auto;
@@ -486,13 +486,13 @@ h4{
 	#contact .foto-section h4{
 		margin: 15px;
 		color: #000;
-		font-size: 25px;
+		font-size: 23px;
 		line-height: 25px;
 	}
 
 	#contact .foto-section h5{
 		text-align: center;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 18px;
 	}
 
@@ -527,6 +527,7 @@ h4{
 }
 
 #trivia-box{
+	 background-color: rgba(131,6,40,0.6);
 	color: #fff;
 	font-size: 2em;
 	text-align: center;
@@ -540,6 +541,7 @@ h4{
 
 #group-instagram{
 	background-color: #fff;
+	height: 125%;
 }
 
 
@@ -552,6 +554,25 @@ h4{
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
+	}
+
+footer{
+		background-color: #830628;
+		color: #fff;
+		padding: 1em;
+		font-size: 1em;
+	}
+	
+	footer #put-logo{
+		padding: 4em;
+		float: right;
+		margin: 0 30px;
+	
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	
+		background-image: url("../images/logos/put_logo.png")
 	}
 
 /* responsive */
@@ -637,10 +658,16 @@ h4{
 		width: 90%;
 		margin: 2% auto;
 		border: #82152b 2px solid;
-
-		font-size: 2em;
+	}
+		
+	#instafeed{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
 	}
 }
+
+
 
 /*smartphone-small*/
 @media only screen and (max-width: 321px) and (orientation: portrait){

@@ -64,6 +64,7 @@
 }
 
 #group-timetable {
+  background-color: #fff;
   display: block;
   z-index: 10; 
 }
@@ -89,10 +90,21 @@
   background-position: center;
 }
 
+#group-trivia{
+  background-color: rgba(131,6,40,0.6);
+}
+
+#group-trivia .p-layer {
+  background-image: url("../images/kampus.png");
+  background-size: cover;
+  background-position: center;
+}
+
 #group-contact{
   display: block;
   z-index: 10;
-  height: 70%;
+  height: 80%;
+  background-color: #fff;
 }
 
 #group-instagram{
@@ -110,6 +122,7 @@
   color: #fff;
   padding: .5em;
   border-radius: 0 0 5px 5px;
+  display: none;
 }
 .debug-on .p-group {
   -webkit-transform: translate3d(800px, 0, -800px) rotateY(30deg);
