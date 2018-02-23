@@ -42,7 +42,7 @@
   z-index: 3; 
 }
 #group-title .p-layer-back {
-  background-image: url("../images/stary_rynek.png");
+  background-image: url("../images/stary_rynek.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -58,7 +58,7 @@
 }
 #group-about .p-layer-back {
   z-index: 2;
-  background-image: url("../images/centrum_wykladowe.png");
+  background-image: url("../images/centrum_wykladowe.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -95,7 +95,7 @@
 }
 
 #group-trivia .p-layer {
-  background-image: url("../images/kampus.png");
+  background-image: url("../images/kampus.jpg");
   background-size: cover;
   background-position: center;
 }
