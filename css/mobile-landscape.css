@@ -1,0 +1,170 @@
+/*smartphone-landcape*/
+
+@media only screen and (max-width: 766px) and (orientation: landscape), only screen and (max-height: 700px)and (orientation: landscape){
+      
+    header li{
+            justify-content: center;
+            align-content: center;
+            padding: .8em;
+            font-size: 0.8em;
+        }
+
+
+        #title #logo{
+			margin: 0;
+            width: 100%;
+            height: 50%;
+			padding: 1em 0;
+            background-image: url("../images/logos/FUT_poznan.png");
+            background-position: center;
+            background-size: 50vh;
+            background-repeat: no-repeat;  
+    
+        }
+
+        #zegar h1{
+			margin-bottom: 10px;
+
+			font-size: 4vh;
+			text-align: center;
+			font-variant: small-caps;
+		}
+		
+		#zegar #timer{
+			color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#zegar #timer .timer_item{
+			margin: 0 25px;
+		}
+
+		#zegar #timer .time{
+			font-size: 8vh;
+			text-align: center;
+		}
+
+		#zegar #timer .description{
+			text-align: center;
+			font-size: 8    px;
+			line-height: 20px;
+		}
+
+
+
+
+/* 
+-------------------------------------------------
+------------------ORGANIZERS---------------------
+-------------------------------------------------
+*/
+
+
+		#organizers #logos-holder{
+			/*height: auto;
+			
+			transform: translateX(-50%);
+			position: relative;
+			left: 50%;
+			margin: 50px 0;*/
+			height: 20%;
+			width: 100%;
+			margin: 0;
+		}
+	
+		#organizers .logo{
+			/*width: 250px;
+			height: 100%;
+			display: inline-block;
+			margin: 0 30px;
+	
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;*/
+			width: 33%;
+			height: 10vh;
+			margin: 2% 0;
+		}
+	
+		
+		#organizers .white-box{
+			/*color: #830628;
+			width: 59%;
+			height: 20%;
+			margin: 0.5em 0;
+			padding: 1em;*/
+			width: 90%;
+			height: 25%;
+			padding: 0;
+			
+		}
+	
+		#organizers iframe{
+			/*margin-left: auto;
+			margin-right: auto;
+			
+			height: 35.4375%;
+			display: block;*/
+			width: 100%;
+			height: 35%;
+		}
+	
+		#organizers a{
+			/*display: block;
+			margin-left: auto;
+			margin-right: auto;
+	
+			background-color: #fff;
+			border: #830628 8px solid;
+			width: 63%;
+			font-size: 4em;
+			margin-top: 0.5em;
+			text-align: center;
+			text-decoration: none;
+			color: #000;
+			overflow: hidden;
+			transition: all 0.3s ease 0s;*/
+			height: auto;
+			width: 90%;
+			margin: 1em auto;
+			border: #830628 2px solid;
+	
+			font-size: 2em;
+		}
+	
+
+
+
+/* 
+-------------------------------------------------
+--------------------CONTACT----------------------
+-------------------------------------------------
+*/
+
+#group-contact{
+	height: 200vh; 
+  }
+  
+
+	#contact #foto-holder{
+		flex-direction: row;
+		justify-content: unset;
+		flex-wrap: unset;
+		font-size: 0.7em;
+	}
+
+	#contact .foto-section{
+		height: 100%;
+		width: 100%;
+		margin: 1em auto;
+	}
+
+
+
+
+
+
+
+} /* @media */

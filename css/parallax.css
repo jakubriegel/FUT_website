@@ -50,7 +50,7 @@
 
 #group-organizers {
   z-index: 4; 
-  height: 150%;
+  /* height: 150%; */
 }
 
 #group-about {
@@ -111,7 +111,9 @@
   z-index: 12;
 }
 
-
+#group-footer{
+  height: unset;
+}
 
 .debug {
   position: fixed;

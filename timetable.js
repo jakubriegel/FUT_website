@@ -12,6 +12,7 @@ var timetable = [
     {"name":"Śniadanie", "time":[13, 8, 0], "extended":true },
     {"name":"Czas wolny", "time":[13, 9, 0], "extended":true },
     {"name":"Zwiedzanie Politechniki", "time":[13, 10, 0], "extended":true },
+    {"name":"Zwiedzanie Fortów Poznańskich", "time":[13, 10, 0], "extended":true },
     {"name":"Obiad", "time":[13, 15, 0], "extended":true },
     {"name":"Czas wolny", "time":[13, 16, 0], "extended":true },
     {"name":"Otwarcie sesji roboczej", "time":[13, 17, 0], "extended":false },

@@ -1,6 +1,6 @@
 /* responsive */
 /*smartphone-portrait*/
-@media only screen and (max-width: 766px) and (orientation: portrait){
+@media only screen and (max-width: 766px) and (orientation: portrait), only screen and (max-height: 700px){
 	
 	
 	h3{
@@ -199,6 +199,8 @@
 
 	#panels .panels-about{
 		border: #fff 2px solid;
+		font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+
 	}
 
 	.panels-block{
