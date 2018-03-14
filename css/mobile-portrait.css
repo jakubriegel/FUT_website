@@ -156,7 +156,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		text-align: center;*/
-		font-size: 1em;
+		/* font-size: 1em; */
 		/*overflow: hidden; */
 	}
 	
@@ -218,6 +218,10 @@
 	#group-accomodation {
 		height: 125%;; 
 	  }
+	
+	#accomodation p{
+		font-size: calc(16px + (26 - 14) * ((100vw - 350px) / (1600 - 300)));
+	}
 
 
 

@@ -5,6 +5,9 @@ function display_panels()
 
         var button0 = document.getElementById("button-big");
         var panel0 = document.getElementById("panel0-block0");
+        
+        var button02 = document.getElementById("button-big2");
+        var panel02 = document.getElementById("panel1-block0");
 
         var button1 = document.getElementById("panel1");
         var panel1 = document.getElementById("panel1-block1");
@@ -18,7 +21,7 @@ function display_panels()
         // var button4 = document.getElementById("panel4");
         // var panel4 = document.getElementById("panel2-block2");
 
-        if(button0.checked || button1.checked || button3.checked){
+        if(button0.checked || button02.checked || button1.checked || button3.checked){
             group.style.height = "125%";
         }
 
@@ -28,6 +31,14 @@ function display_panels()
         }        
         else{
             panel0.classList.add('panels-hidden');
+        }
+
+        if(button02.checked)
+        {
+            panel02.classList.remove('panels-hidden');
+        }        
+        else{
+            panel02.classList.add('panels-hidden');
         }
 
         if(button1.checked)
