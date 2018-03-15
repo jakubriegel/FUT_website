@@ -27,7 +27,7 @@
 	}
 
 	#title #logo{
-		height: 60%;
+		height: 40%;
 
 		background-size: 40%;
 	}
@@ -241,7 +241,8 @@
 */
 
 #group-contact{
-	height: 200vh; 
+	height: 1400px;
+	/* height: 200vh;  */
   }
   
 
@@ -255,7 +256,7 @@
 	#contact .foto-section{
 		height: 100%;
 		width: 100%;
-		margin: 1em auto;
+		margin: 4em auto;
 	}
 
 
