@@ -13,7 +13,14 @@ function createTimetable(){
 
     var date = new Date();
     var timeNow = {month:date.getMonth(), day:date.getDate(), hour:date.getHours(), minutes:date.getMinutes()};
-    
+
+    //DEBUG TIME
+    // timeNow.month = 4;
+    // timeNow.day = 13;
+    // console.log(timeNow);
+
+
+
     // function happeningNow() requires events to be sorted
     timetable.sort(function(a,b){
         // test days
@@ -56,7 +63,7 @@ function createTimetable(){
 
     var group = document.getElementById('group-timetable');
     var content = document.getElementById('timetable');
-    group.style.height = content.clientHeight + 'px';
+    group.style.height = '1100px';//content.clientHeight + 'px';
 }
 
 function happeningNow(i, timeNow){
