@@ -157,11 +157,13 @@ header{
 		position: relative;
 		left: 50%;
 		margin: 50px 0;
+		display: flex;
+		justify-content: center;
 	}
 
 	#organizers .logo{
 		width: 250px;
-		height: 100%;
+		height: 75%;
 		display: inline-block;
 		margin: 0 30px;
 
@@ -180,6 +182,11 @@ header{
 
 	#organizers #pan-logo{
 		background-image: url("../images/logos/pan_logo.png")
+	}
+
+	#organizers h6{
+		font-size: 2em;
+		text-align: center;
 	}
 
 	#organizers p{
@@ -681,14 +688,14 @@ footer{
 	}
 
 	#organizers #logos-holder{
-		height: 40%;
+		/* height: 40%; */
 		width: 100%;
 		margin: 0;
 	}
 
 	#organizers .logo{
 		width: 100%;
-		height: 25%;
+		/* height: 25%; */
 		margin: 3% 0;
 	}
 

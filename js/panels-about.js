@@ -21,9 +21,9 @@ function display_panels()
         // var button4 = document.getElementById("panel4");
         // var panel4 = document.getElementById("panel2-block2");
 
-        if(button0.checked || button02.checked || button1.checked || button3.checked){
-            group.style.height = "1000px";
-        }
+        // if(button0.checked || button02.checked || button1.checked || button3.checked){
+        //     group.style.height = "1000px";
+        // }
 
         if(button0.checked)
         {
